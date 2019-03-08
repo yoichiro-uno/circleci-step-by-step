@@ -73,3 +73,4 @@ workflows:
       - "jdk-11":
           requires:
             - "jdk-10"
+parallelism: 4
