@@ -49,10 +49,7 @@ workflows:
   version: 2
   build:
     jobs:
-      - build
-      - "jdk-8": 
-          requires:
-            - build
+      - "jdk-8"
       - "jdk-10"
           requires:
             - "jdk-8"
